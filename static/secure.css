@@ -1,0 +1,93 @@
+ /* Reset some default styles */
+ body, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    background:url('https://c4.wallpaperflare.com/wallpaper/470/931/723/digital-art-dark-wallpaper-preview.jpg');
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-size: cover; /* Cover the entire background */
+    background-position: fixed; /* Fix the background position */
+    color: white;
+
+}
+h3{
+    text-align: center;
+    color: rgb(9, 255, 0);
+}
+h2{
+    text-align: center;
+    text-shadow: 0 2px 6px  greenyellow !important; /* !important is used to override other CSS rules that may be overriding this style. If this still doesn't work, it could be because the element is not being targeted correctly */
+}
+
+/* CSS for navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #022205;
+    box-shadow: 0 1px 2px rgb(1, 83, 1);
+    color: #fff;
+    text-shadow: 0 2px 6px  rgb(101, 165, 4) !important;
+    font-family: 'Roboto', sans-serif; /* Apply Google Font */
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* CSS for introduction section */
+.intro-container {
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:70%;
+   
+    box-shadow: 0 4px 10px rgba(2, 204, 49, 0.947);
+
+    transition: box-shadow 0.3s ease;
+    
+    font-family: 'Roboto', sans-serif; /* Apply Google Font */
+}
+
+.intro-container:hover {
+    box-shadow: 0 5px 8px rgba(94, 252, 99, 0.856);
+}
+
+/* Additional styles for headings and paragraphs */
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-bottom: 15px;
+}
+
+li {
+    font-size: 16px;
+    line-height: 1.5;
+}

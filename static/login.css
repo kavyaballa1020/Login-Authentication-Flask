@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('https://www.chromethemer.com/wallpapers/chromebook-wallpapers/images/960/dark-blue-polygon-chromebook-wallpaper.jpg');
+     background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-size: cover; /* Cover the entire background */
+    background-position: fixed; /* Fix the background position */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fffffff8;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px 0 rgb(34, 0, 255);
+    width: 600px;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0015ff;
+    font-size: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 4px 0 rgb(43, 52, 226);
+    outline: none;
+    font-family: inherit;
+    border: none;
+    width: 100%;
+}
+
+input:focus {
+    border: 3px solid rgba(4, 4, 207, 0.527);
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: 900;
+}
+
+button {
+    background-color: #140065;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 1000;
+    font-size: 16px;
+    box-shadow: 0 2px 4px 0 rgb(52, 43, 226);
+
+    transition: background-color 0.3s ease;
+    width: 50%;
+    margin: 0 auto; /* center the button */
+}
+
+button:hover {
+    box-shadow: 0 4px 10px 0 rgb(139, 130, 238);
+    background-color: #0202bb;
+    transform: scale(1.05); /* increase the size */
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    color: #544b4bbe;
+    font-weight:600;
+}
+
+a {
+    color: #0d00ff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s ease;
+    font-weight: 1100;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+svg {
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    float: left;
+}
+.input-icon {
+    position: relative;
+  }
+  .input-icon input {
+    padding-left: 40px; /* Adjust based on icon width and padding */
+    padding-right: 40px; /* Adjust based on icon width and padding */
+  }
+  
+  .input-icon i {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    color: #000; /* Set icon color to black */
+    padding: 10px; /* Adjust based on the size of the icon */
+  }
+  
+  
+  .input-icon i.lock-icon {
+    left: 5px;
+  }
+  
+  .input-icon i.eye-icon {
+    right: 5px;
+  }
+  body{
+    background-color: white;
+  }
+  
+  button i {
+    margin-right: 5px;
+  }
+  
