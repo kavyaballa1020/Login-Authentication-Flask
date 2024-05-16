@@ -1,6 +1,3 @@
-Certainly! Here's a sample `README.md` file for your login authentication repository on GitHub:
-
-```markdown
 # Flask Login Authentication
 
 This repository contains a simple web application built with Flask for user login authentication. It utilizes MongoDB for storing user data and login sessions, Flask-Bcrypt for password hashing, and Flask-PyMongo for interacting with the MongoDB database.
@@ -19,7 +16,7 @@ This repository contains a simple web application built with Flask for user logi
 
 ```bash
 git clone https://github.com/yourusername/flask-login-authentication.git
-```
+
 
 2. Navigate to the project directory:
 
