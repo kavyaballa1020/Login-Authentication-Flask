@@ -60,4 +60,3 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 This project is licensed under the [MIT License](LICENSE).
 ```
 
-Feel free to customize this `README.md` file according to your specific project details and preferences!
