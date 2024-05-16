@@ -1,6 +1,3 @@
-Certainly! Here's the corrected version of your `README.md` with the provided content and placeholders:
-
-```markdown
 # Flask Login Authentication
 
 This repository contains a simple web application built with Flask for user login authentication. It utilizes MongoDB for storing user data and login sessions, Flask-Bcrypt for password hashing, and Flask-PyMongo for interacting with the MongoDB database.
@@ -18,8 +15,7 @@ This repository contains a simple web application built with Flask for user logi
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/flask-login-authentication.git
-```
+git clone https://github.com/kavyaballa1020/Oasis-Login-Authentication.git
 
 2. **Navigate to the project directory:**
 
@@ -59,15 +55,15 @@ python app.py
 
 1. **Register Page:**
 
-   ![Register Page](screenshots/register.png)
+   ![Register Page](screenshots/Login%20Authentication%20-%201.PNG)
 
 2. **Login Page:**
 
-   ![Login Page](screenshots/login.png)
+   ![Login Page](screenshots/Login%20Authentication%20-%202.PNG)
 
 3. **Secured Page:**
 
-   ![Secured Page](screenshots/secured.png)
+   ![Secured Page](screenshots/Login%20Authentication%20-%203.PNG)
 
 ## Contributing
 
@@ -77,5 +73,3 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 
 This project is licensed under the [MIT License](LICENSE).
 ```
-
-Replace `"yourusername"` in the clone URL with your actual GitHub username, and ensure that the `screenshots` folder containing the images `register.png`, `login.png`, and `secured.png` is in the root directory of your project.
