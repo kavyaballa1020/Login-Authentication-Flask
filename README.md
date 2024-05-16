@@ -1,3 +1,6 @@
+Certainly! Here's the corrected version of your `README.md` with the provided content and placeholders:
+
+```markdown
 # Flask Login Authentication
 
 This repository contains a simple web application built with Flask for user login authentication. It utilizes MongoDB for storing user data and login sessions, Flask-Bcrypt for password hashing, and Flask-PyMongo for interacting with the MongoDB database.
@@ -12,37 +15,38 @@ This repository contains a simple web application built with Flask for user logi
 
 ## Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 
 ```bash
 git clone https://github.com/yourusername/flask-login-authentication.git
+```
 
-
-2. Navigate to the project directory:
+2. **Navigate to the project directory:**
 
 ```bash
 cd flask-login-authentication
 ```
 
-3. Install the dependencies:
+3. **Install the dependencies:**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Set up environment variables:
+4. **Set up environment variables:**
+
    - Create a `.env` file in the project root directory.
    - Define the following variables in the `.env` file:
      - `SECRET_KEY`: A secret key used for session management.
      - `MONGO_URI`: URI for connecting to your MongoDB database.
 
-5. Run the application:
+5. **Run the application:**
 
 ```bash
 python app.py
 ```
 
-6. Access the application in your web browser at `http://localhost:5000`.
+6. **Access the application in your web browser at** `http://localhost:5000`.
 
 ## Usage
 
@@ -50,6 +54,20 @@ python app.py
 2. Log in using your registered username and password.
 3. Upon successful login, you will be redirected to the secured page displaying your first name and last name.
 4. Click on the "Logout" link to log out of your session.
+
+## Screenshots
+
+1. **Register Page:**
+
+   ![Register Page](screenshots/register.png)
+
+2. **Login Page:**
+
+   ![Login Page](screenshots/login.png)
+
+3. **Secured Page:**
+
+   ![Secured Page](screenshots/secured.png)
 
 ## Contributing
 
@@ -60,3 +78,4 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 This project is licensed under the [MIT License](LICENSE).
 ```
 
+Replace `"yourusername"` in the clone URL with your actual GitHub username, and ensure that the `screenshots` folder containing the images `register.png`, `login.png`, and `secured.png` is in the root directory of your project.
