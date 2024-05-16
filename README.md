@@ -9,7 +9,6 @@ This repository contains a simple web application built with Flask for user logi
 - Session management: User sessions are managed using Flask's session functionality.
 - Password hashing: User passwords are hashed using Flask-Bcrypt before being stored in the database.
 - MongoDB integration: MongoDB is used as the backend database for storing user data and login sessions.
-
 ## Installation
 
 1. **Clone the repository:**
