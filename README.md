@@ -55,15 +55,15 @@ python app.py
 
 1. **Register Page:**
 
-   ![Register Page](screenshots/Login%20Authentication%20-%201.PNG)
+   ![Register Page](Screenshots/Login%20Authentication%20-%201.PNG)
 
 2. **Login Page:**
 
-   ![Login Page](screenshots/Login%20Authentication%20-%202.PNG)
+   ![Login Page](Screenshots/Login%20Authentication%20-%202.PNG)
 
 3. **Secured Page:**
 
-   ![Secured Page](screenshots/Login%20Authentication%20-%203.PNG)
+   ![Secured Page](Screenshots/Login%20Authentication%20-%203.PNG)
 
 ## Contributing
 
