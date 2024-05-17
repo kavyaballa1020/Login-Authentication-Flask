@@ -4,29 +4,31 @@ This repository contains a simple web application built with Flask for user logi
 
 ## Features
 
-- User registration: Users can create an account by providing their first name, last name, username, and password.
-- User login: Registered users can log in using their username and password.
-- Session management: User sessions are managed using Flask's session functionality.
-- Password hashing: User passwords are hashed using Flask-Bcrypt before being stored in the database.
-- MongoDB integration: MongoDB is used as the backend database for storing user data and login sessions.
+- **User registration**: Users can create an account by providing their first name, last name, username, and password.
+- **User login**: Registered users can log in using their username and password.
+- **Session management**: User sessions are managed using Flask's session functionality.
+- **Password hashing**: User passwords are hashed using Flask-Bcrypt before being stored in the database.
+- **MongoDB integration**: MongoDB is used as the backend database for storing user data and login sessions.
+
 ## Installation
 
 1. **Clone the repository:**
 
-```bash
-git clone https://github.com/kavyaballa1020/Oasis-Login-Authentication.git
+    ```bash
+    git clone https://github.com/kavyaballa1020/Oasis-Login-Authentication.git
+    ```
 
 2. **Navigate to the project directory:**
 
-```bash
-cd flask-login-authentication
-```
+    ```bash
+    cd flask-login-authentication
+    ```
 
 3. **Install the dependencies:**
 
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 4. **Set up environment variables:**
 
@@ -37,9 +39,9 @@ pip install -r requirements.txt
 
 5. **Run the application:**
 
-```bash
-python app.py
-```
+    ```bash
+    python app.py
+    ```
 
 6. **Access the application in your web browser at** `http://localhost:5000`.
 
@@ -54,15 +56,15 @@ python app.py
 
 1. **Register Page:**
 
-   ![Register Page](Screenshots/Login%20Authentication%20-%201.PNG)
+    ![Register Page](Screenshots/Login%20Authentication%20-%201.PNG)
 
 2. **Login Page:**
 
-   ![Login Page](Screenshots/Login%20Authentication%20-%202.PNG)
+    ![Login Page](Screenshots/Login%20Authentication%20-%202.PNG)
 
 3. **Secured Page:**
 
-   ![Secured Page](Screenshots/Login%20Authentication%20-%203.PNG)
+    ![Secured Page](Screenshots/Login%20Authentication%20-%203.PNG)
 
 ## Contributing
 
@@ -71,4 +73,3 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-```
