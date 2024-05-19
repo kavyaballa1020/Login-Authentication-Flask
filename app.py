@@ -62,7 +62,6 @@ def register():
         return redirect('/login')
     return render_template('register.html')
 
-
 @app.route('/secured')
 def secured():
     if 'username' in session:
@@ -76,7 +75,6 @@ def secured():
     else:
         return redirect('/login')
     
-    
 @app.route('/logout')
 def logout():
     if 'username' in session:
@@ -86,8 +84,6 @@ def logout():
     session.pop('username', None)
 
     return redirect('/login')
-
-
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
